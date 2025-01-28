@@ -1,0 +1,17 @@
+{
+  "name": "automation-mobile",
+  "version": "1.0.0",
+  "description": "Projeto de testes automatizados qazando mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --steps",
+    "android": "cross-env PLATFORM=Android APP='C:/Users/micha/Downloads/appsqazando/app-release.apk' DEVICE=pixel VERSION=9 PACKAGE=com.qazandoapp ACTIVITY=MainActivity npx codeceptjs run --steps"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "^3.6.10",
+    "cross-env": "^7.0.3",
+    "webdriverio": "^9.5.7"
+  }
+}
