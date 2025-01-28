@@ -1,12 +1,11 @@
-#Configurar o projeto.
-
+# Configurar o projeto.
 Baixar projeto
 rodar o: npm install
 subir o appium + emulador
 ajustar o caminho do seu app
 rodar o comando: npx codeceptjs run --steps
 
-#Projeto utilizando as libs:
+# Projeto utilizando as libs:
 npm install codeceptjs appium webdriverio --save-dev
 
 
